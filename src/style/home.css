@@ -73,11 +73,11 @@ hr {
         flex-direction: column;
     }
 
-    .input1 {
+    .input1 input {
         width: 100%;
     }
 
-    .input2 {
+    .input2 input {
         width: 100%;
     }
 
