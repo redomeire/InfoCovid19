@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+body {
+    font-family: 'Poppins';
+}
+
+.jumbotron {
+    margin-top: 100px;
+}
+
+.jumbotron h1 {
+    font-size: 48px;
+}
+
+.jumbotron-details p {
+    font-size: 18px;
+    width: 75%;
+}
+
+.input1 {
+    width: 45%;
+}
+
+.input1 input {
+    border: 1px solid rgba(40, 40, 40, 0.17);
+    border-radius: 10px;
+    height: 50px;
+}
+
+.input2 {
+    width: 45%;
+}
+
+.input2 input {
+    border: 1px solid rgba(40, 40, 40, 0.17);
+    border-radius: 10px;
+    height: 50px;
+}
+
+select {
+    border: 1px solid rgba(40, 40, 40, 0.17);
+    border-radius: 5px;
+}
+
+.result .card {
+    width: 40%;
+}
+
+hr {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.footer-details {
+    width: 50%;
+}
+
+@media screen and (max-device-width: 768px) {
+    .jumbotron {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .jumbotron-details {
+        margin-top: 30px;
+    }
+
+    .jumbotron-details p {
+        text-align: justify;
+        width: 100%;
+    }
+
+    .input-container {
+        flex-direction: column;
+    }
+
+    .input1 {
+        width: 100%;
+    }
+
+    .input2 {
+        width: 100%;
+    }
+
+    .result .card {
+        width: 100%;
+    }
+
+    .footer-upper {
+        flex-direction: column-reverse;
+    }
+
+    .footer-details {
+        text-align: justify;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-details h1 {
+    text-align: center;
+}
+
+    .footer-bottom {
+        flex-direction: column;
+    }
+}

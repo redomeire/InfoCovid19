@@ -1,0 +1,9 @@
+.card {
+    background: rgba(255, 255, 255, 0.19);
+}
+
+@media screen and (max-device-width: 768px){
+    .card {
+        margin-top: 40px;
+    }
+}
