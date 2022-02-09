@@ -1,5 +1,4 @@
 import './Navbar';
-import './Cards';
 import './MakeResultCard';
 import './request';
 import './style/navbar.css';

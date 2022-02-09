@@ -17,29 +17,38 @@
 }
 
 .spans span {
-    background-color: black;width: 20px; height: 1px; display: block;
+    background-color: black;
+    width: 20px;
+    height: 1px;
+    display: block;
     padding: 1px;
     transition: ease 0.4s;
 }
 
-.spans span:nth-child(2){
+.spans span:nth-child(2) {
     margin-top: 5px;
     transition: ease 0.2s;
 }
 
-.spans span:nth-child(3){
+.spans span:nth-child(3) {
     margin-top: 5px;
 }
 
-.navbar-toggler input:checked ~ .spans span:nth-child(1){
-    transform: rotate(45deg) translate(1px,8.6px);
+.navbar-toggler input:checked~.spans span:nth-child(1) {
+    transform: rotate(45deg) translate(1px, 8.6px);
 }
 
-.navbar-toggler input:checked ~ .spans span:nth-child(2){
+.navbar-toggler input:checked~.spans span:nth-child(2) {
     opacity: 0;
     padding: 0;
 }
 
-.navbar-toggler input:checked ~ .spans span:nth-child(3){
-    transform: rotate(-45deg) translate(0px,-8px);
+.navbar-toggler input:checked~.spans span:nth-child(3) {
+    transform: rotate(-45deg) translate(0px, -8px);
+}
+
+@media screen and (max-device-width: 992px) {
+    .nav-item a {
+        margin-top: 50px;
+    }
 }
