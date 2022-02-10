@@ -17,18 +17,10 @@ body {
     width: 75%;
 }
 
-.input1 {
-    width: 45%;
-}
-
 .input1 input {
     border: 1px solid rgba(40, 40, 40, 0.17);
     border-radius: 10px;
     height: 50px;
-}
-
-.input2 {
-    width: 45%;
 }
 
 .input2 input {
@@ -71,14 +63,6 @@ hr {
 
     .input-container {
         flex-direction: column;
-    }
-
-    .input1 {
-        width: 100%;
-    }
-
-    .input2 {
-        width: 100%;
     }
 
     .result .card {
